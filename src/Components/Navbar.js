@@ -7,6 +7,11 @@ const Navbar = () =>{
                 <h1>Front End</h1>
             </div>
             <div className="Right">
+            <div className="One">
+                <Link to="/AllStudent" className="one">
+                AllStudents
+                </Link>
+                </div>
                 <div className="One">
                 <Link to="/AddStudent" className="one">
                 AddStudent
